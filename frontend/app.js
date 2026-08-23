@@ -1,4 +1,4 @@
-const API_BASE = 'http://127.0.0.1:8000';
+const API_BASE = 'https://pathgraph.onrender.com';
 const state = { roles: [], skills: [], role: 'machine-learning-engineer', selected: ['python','sql','git'], profile: null, graph: null, view: 'explore', working: false, error: '' };
 const app = document.getElementById('app');
 
